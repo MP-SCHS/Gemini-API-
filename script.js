@@ -1,5 +1,5 @@
 const webConsole = document.getElementById("webConsole");
 
 function sendPrompt() {
-    webConsole.innerHTML = env.local;
+    webConsole.innerHTML = env.local.G-API;
 }
